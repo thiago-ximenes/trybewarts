@@ -21,3 +21,20 @@
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#evaluation-form {
+  border:1px solid black;
+  width: 900px;
+  flex-direction: column;
+}
+
+#evaluation-form div {
+    flex-direction:row
+}
+
+#familyFlex {
+  border:1px solid black;
+  height:100px; 
+  flex-direction: column;
+  flex-wrap:wrap;
+}

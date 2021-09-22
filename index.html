@@ -24,23 +24,29 @@
 
     <main id="main">
         <form id="evaluation-form">
-            <input id="input-name" placeholder="Nome" type="text">
+            <div id="fullName">
+                <input id="input-name" placeholder="Nome" type="text">
 
-            <input id="input-lastname" placeholder="Sobrenome" type="text">
-            
-            <input id="input-email" placeholder="Email" type="text">
+                <input id="input-lastname" placeholder="Sobrenome" type="text">
+            </div>
+            <div id="emailCasa">
+                <input id="input-email" placeholder="Email" type="text">
+                <select id="house">
+                    <option id = "gitnoria-house">Gitnória</option>
+                    <option id = "reactpuff-house">Reactpuff</option>
+                    <option id = "corvinode-house">Corvinode</option>
+                    <option id="pytherina-house">Pytherina</option>
+                </select>
+            </div>
+            <div id="familyFlex">
+                <label id="label-family" >Qual sua família?</label>
+                <input type="radio" name="family" value="Frontend">Frontend
+                <input type="radio" name="family" value="Backend">Backend
+                <input type="radio" name="family" value="FullStack">FullStack
+            </div>
         </form>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
 
-        <form>
-            <select id="house">
-                <option id = "gitnoria-house">Gitnória</option>
-                <option id = "reactpuff-house">Reactpuff</option>
-                <option id = "corvinode-house">Corvinode</option>
-                <option id="pytherina-house">Pytherina</option>
-            </select>
-                        
-        </form>
         <!-- <img id="trybewarts-forms-logo" -->
 
     </main>
