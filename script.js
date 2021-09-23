@@ -51,9 +51,7 @@ function capturaDados() {
   sobrenome = document.querySelector('#input-lastname').value;
   email = document.getElementById('input-email').value;
   seletor = document.getElementById('house').value;
-  familiaEscolhida = document.querySelector(
-    '#evaluation-form input[name="family"]:checked'
-  ).value;
+  familiaEscolhida = document.querySelector('#evaluation-form input[name="family"]:checked').value;
   materias = document.querySelectorAll('.subject');
   nota = document.querySelector('#notas input[name="rate"]:checked').value;
   observacoes = document.querySelector('#textarea').value;
