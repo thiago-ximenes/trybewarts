@@ -35,7 +35,7 @@ header form {
 
 header form input {
   border: 0;
-  background-color: #F4EED7;
+  background-color: rgb(244, 238, 215);
   padding: 6px 10px;
   margin: 0 2px;
   border-radius: 3px;
@@ -46,10 +46,9 @@ header form button {
   border-radius: 5px;
   padding: 6px 20px;
   margin-left: 5px;
-  background-color: #F4EED7;
-  color: #000000;
+  background-color: rgb(244, 238, 215);
+  color: black;
   cursor: pointer;
-  
 }
 
 .trybewarts-login {
