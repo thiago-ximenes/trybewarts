@@ -15,7 +15,7 @@ loginButton.addEventListener('click', () => {
 });
 
 submitButtom.disabled = true;
-
+// Source https://flaviocopes.com/how-to-disable-button-javascript/
 agreement.addEventListener('click', () => {
   if (agreement.checked) {
     submitButtom.disabled = false;
