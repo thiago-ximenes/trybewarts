@@ -14,8 +14,12 @@ loginButton.addEventListener('click', () => {
   }
 });
 
-submitButtom.addEventListener('click', () => {
-  if (!agreement.checked) {
+submitButtom.disabled = true;
+
+agreement.addEventListener('click', () => {
+  if (agreement.checked) {
+    submitButtom.disabled = false;
+  } else {
     submitButtom.disabled = true;
   }
 });
